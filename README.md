@@ -13,7 +13,9 @@ Data Split: Segregated input images into an 80:20 ratio for training and testing
 
 Validation Technique: Achieved satisfactory accuracy without implementing K-fold Cross Validation.
 ### Implementation
-The ipynb file has the complete implementation. The algorithm is implemented using Tensorflow Framework in Python.
+The iPhoneHousingDefectDetection.ipynb file has the complete implementation. The input data is provided in data folder. (Change the path of input data path in the ipynb)
+
+The algorithm is implemented using Tensorflow Framework in Python.
 ### Metrics used to assess the algorithm
 Precision, Recall and  F1-score metrics are used to assess the algorithm
 ### Bonus problem

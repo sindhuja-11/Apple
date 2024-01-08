@@ -2,10 +2,15 @@
 ## IPhone Housing Defect Detection 
 ### Approach
 Approach: Utilized a Classification-based methodology for detecting defects in images.
+
 Model: Employed a Pretrained Resnet 50 model to extract image features.
+
 Architecture: Incorporated additional Dense layers for binary classification.
+
 Imbalanced Data: Faced scarcity in defected images; addressed the issue by augmenting the existing defect images and using Synthetic minority oversampling method.
+
 Data Split: Segregated input images into an 80:20 ratio for training and testing purposes.
+
 Validation Technique: Achieved satisfactory accuracy without implementing K-fold Cross Validation.
 ### Implementation
 The ipynb file has the complete implementation. The algorithm is implemented using Tensorflow Framework in Python.
